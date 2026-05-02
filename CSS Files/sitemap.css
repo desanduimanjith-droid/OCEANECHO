@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.6)50%,rgba(0, 0, 0, 0.6)50%),url(Mnemba-Island-2-1160x653-1.jpg);
+    background-position: center;
+    background-size: cover;
+	
+	
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+	text-align:center;
+	color:white;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height:70px;
+}
+
+.logo img{
+    height: 140px; 
+    width: 200px;
+    margin-left: 5px;
+    
+}
+
+.menu{
+    width:400px;
+    float: left;
+    height: 70px;
+    padding: 10px 20px
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+    padding:auto; 
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff ;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left:360px;  
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color:#fff;
+    border-right: none; 
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.sitemap-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+svg {
+    width:100%;
+    max-width: 1200px;
+    height: auto;
+	
+}
+
+.connector {
+    stroke: #888;
+    stroke-width: 3;
+}
+
+.node {
+    fill: #007bff;
+    stroke: #333;
+    stroke-width: 3;
+    rx: 12;
+    ry: 12;
+    transition: fill 0.3s ease;
+}
+
+.node:hover {
+    fill: #0056b3;
+    cursor: pointer;
+}
+
+.node-text {
+    fill: white;
+    font-size: 18px;
+	font-style:bold;
+	text-align:center;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    pointer-events: none;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1676a3;
+  color: white;
+}
