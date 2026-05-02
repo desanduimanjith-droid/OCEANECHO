@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page editor for sitemap</title>
+    <link rel="stylesheet" href="sitpro.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="icon">
+                <div class="logo">
+                    <a href="#"><img src="logo.png" alt="logo"></a>
+                </div>
+
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="content.html">CONTENT</a></li>
+                    <li><a href="profile.html">PROFILE</a></li>
+					<li><a href="provla.html">VALIDATION</a></li>
+                    <li><a href="sitmap.html">SITEMAP</a></li>
+					
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search"  placeholder="Type to text">
+                <a href="a"><button class="btn">Search</button></a>
+            </div>
+
+        </div>
+	</header>	
+
+    <main>
+        <section id="introduction">
+        <h2>Technical Description.(Sitemap page)</h2>
+        <p>This HTML document represents a Sitemap Page for a website related to marine conservation. It provides a visual representation of the website structure using SVG elements and allows users to navigate through different sections. The page includes a navigation menu, search bar, an interactive sitemap, a call-to-action, and a footer.</p>
+		<p>The < head> section contains metadata and links to external resources necessary for the webpage.The <!DOCTYPE html> declaration ensures that the browser interprets the document as HTML5.< meta charset="UTF-8"> specifies UTF-8 encoding, allowing the webpage to support various characters.< meta name="viewport" content="width=device-width, initial-scale=1.0"> ensures responsiveness, making the page adjust well on different screen sizes.< title>Webpage Design< /title> defines the title of the webpage, which appears in the browser tab.< link rel="stylesheet" href="sitemap.css"> imports an external CSS file (sitemap.css) to style the page.</p>
+		<p>The navigation bar helps users quickly move between different sections of the website.A logo (< div class="logo">), wrapped in an < a> tag linking to the homepage.A menu (< div class="menu">), which includes an unordered list (< ul>) with navigation links.These links help users navigate the site easily.A search bar (< div class="search">) where users can enter text and click a "Search" button (< button class="btn">Search< /button>). However, the anchor link in the search button (< a href="a">) is incomplete and should be replaced with an actual search functionality.</p>
+		<p>he < h1> heading clearly indicates the purpose of the page: to display a sitemap.The sitemap visualization is built using SVG (Scalable Vector Graphics), which allows interactive graphics on the webpage.</p>
+		<p>Lines (<line>) are used to create a hierarchical structure, connecting different nodes in the sitemap.x1, y1 define the starting point of the line.x2, y2 define the ending point of the line.class="connector" applies CSS styling to the lines.A rectangle (<rect>) representing a clickable node.A text label (< text>) that names the section.Each node is wrapped inside an < a> tag so users can click and navigate to the respective pages.he rectangles (<rect>) and text (< text>) are positioned using x and y coordinates to arrange them visually in the sitemap.</p>
+		<p>The footer ( < footer>) provides essential information.At the end of the document, the script file (script.js) is linked, indicating that JavaScript functionalities might be included to enhance interactivity.</p>
+		
+		
+		<li> css file</li>
+		<p>Uses Arial font for consistency.Removes default margins and padding.Sets a background image (Mnemba-Island-2-1160x653-1.jpg) with a dark gradient overlay to improve readability.Ensures the background is centered and covers the entire screen.</p>
+		<p>header:Full width (100%).Height is set to 109vh, making it slightly larger than the viewport.h1:Text is centered and colored white.Uses default margin settings for spacing.Applies unicode-bidi: isolate; to manage bidirectional text behavior.</p>
+		<p>.navbar:Takes up full width (100%).Has a fixed height (75px)..icon:Used for the site logo, positioned on the left.Fixed width (200px) and height (70px)..logo img:Controls the logo size (140px height, 200px width).Adds left margin (5px) for slight positioning..menu:Contains the navigation links.Uses a flexbox-based layout to align menu items.ul:Displays menu items horizontally.Aligns items vertically centered.ul li:Removes bullet points (list-style: none;).Adds margin and padding for spacing.ul li a:Styles navigation links in white (#fff).Uses a hover effect (color: #ff7200;).</p>
+		<p>.sitemap-container:Uses flexbox to center the sitemap both horizontally and vertically.svg:Makes the sitemap responsive, with a maximum width of 1200px..connector:Styles the lines connecting sitemap nodes.Uses a gray stroke color (#888)..node:Represents the rectangular boxes (nodes) in the sitemap.Default fill color is #007bff (blue).Rounded corners (rx: 12; ry: 12;).Hover Effect: Changes color to a darker blue (#0056b3)..node-text:Styles the text inside the nodes.Ensures text remains centered and is not clickable.</p>
+		<p>footer:Centered text.Uses a dark background (#333).Sets text color to white.</p>
+
+
+
+		
+		</section>
+		
+
+        
+    </main>
+
+    <footer>
+     <p> 2025 OceanEcho. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
