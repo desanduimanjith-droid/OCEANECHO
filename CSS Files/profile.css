@@ -1,0 +1,254 @@
+/* Profile page start point */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.6)50%,rgba(0, 0, 0, 0.6)50%),url(Mnemba-Island-2-1160x653-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+h1, h3 {
+  color: #2c3e50;
+}
+
+a {
+  color: #061a28;
+  text-decoration: none;
+}
+
+a:hover {
+  
+  text-decoration: underline;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  background:transparent;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+.navbar ul li {
+   list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 15px;
+  padding:auto;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color:#fff ;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+.navbar ul li a:hover {
+  color: #76c7c0;
+}
+
+/* User Avatar and Information */
+.user-profile-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user-details h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.user-details p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+/* Profile Information Section */
+.profile-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  background-color: #e0f7fa;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.progress {
+  background-color: #76c7c0;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Volunteering Section */
+.volunteering {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.volunteering ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.volunteering li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* Interests Section */
+.interests {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+
+
+.calendar {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.calendar table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.calendar th, .calendar td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.calendar th {
+  background-color: #f2f2f2;
+}
+
+/* Contact Me Section */
+.contact-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #76c7c0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #5aa8a1;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1676a3; 
+    color: white;
+}
+.user-profile-card:hover {
+	transform: scale(1.02);
+  transition: transform 0.3s ease;
+  
+}
+.profile-info:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  
+}
+
+
+.volunteering:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  
+}
+.interests:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  
+}
+.calendar:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  
+}
+.contact-form:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  
+}
