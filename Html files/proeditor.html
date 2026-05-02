@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Impact on Ocean Marine Life</title>
+    <link rel="stylesheet" href="pro.css">
+</head>
+<body>
+     <header>
+        <div class="navbar">
+            <div class="icon">
+                <div class="logo">
+                    <a href="#"><img src="logo.png" alt="logo"></a>
+                </div>
+
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="content.html">CONTENT</a></li>
+                    <li><a href="profile.html">PROFILE</a></li>
+					<li><a href="provla.html">VALIDATION</a></li>
+                    <li><a href="sitmap.html">SITEMAP</a></li>
+					
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search"  placeholder="Type to text">
+                <a href="a"><button class="btn">Search</button></a>
+            </div>
+
+        </div>
+	</header>	
+
+    <main>
+        <section id="introduction">
+        <h2>Technical Description.(Profile page)</h2>
+        <p>his HTML document creates a User Profile Page for John Doe, a marine biologist and volunteer. It is structured into different sections, each serving a specific purpose, such as displaying personal details, professional background, volunteering work, interests, availability, and contact options. The webpage also features a navigation menu for easy access to different sections and a call-to-action promoting marine conservation efforts.</p>
+		<p>The < head> section contains metadata and links to external resources that help structure and style the webpage. The document begins with the <!DOCTYPE html> declaration, which ensures the page is interpreted as an HTML5 document. The < meta charset="UTF-8"> tag sets the character encoding to UTF-8, allowing the page to support a wide range of characters and symbols. The < meta name="viewport" content="width=device-width, initial-scale=1.0"> tag ensures that the page is responsive, meaning it adjusts its layout to fit different screen sizes, including mobile devices.The < title>User Profile Page< /title> tag defines the title of the webpage, which appears in the browser tab. Additionally, the < link rel="stylesheet" href="profile.css"> line imports an external CSS file (profile.css) that styles the page, giving it an attractive and structured appearance.</p>
+		<p>The navigation bar (< nav class="navbar">) helps users quickly move between different sections of the webpage. It consists of an unordered list (< ul>) containing several list items (< li>), each with an anchor (< a>) linking to a section within the page.Each link uses an id selector (e.g., #profile, #about), allowing users to jump directly to a section when clicked.</p>
+		<p>The profile section provides a brief introduction to John Doe. It features a user avatar (< img src="user.png" alt="User Avatar">) inside a < div class="avatar">, giving a visual representation of the user. Below the image, John Doe's name is displayed within an < h1> tag, followed by a short bio (< p>) that describes him as a Marine Biologist & Volunteer. This section serves as a personal introduction, giving visitors a quick overview of who John Doe is and his role.</p>
+		<p>This section provides more in-depth information about John Doe’s background, skills, and goals. The "About Me" heading (< h2>) is followed by a paragraph explaining his passion for marine research, data collection, and environmental volunteering. However, the text contains minor grammatical errors, such as "I am a passionate about reserch", which should be corrected to "I am passionate about research."dditionally, this section includes a Skills & Goals subsection (< div class="skills">).Further, a Goals Progress subsection (< div class="goals">) visually represents John's progress in his research. Two progress bars (< div class="progress-bar">).</p>
+		<p>This section outlines John Doe’s volunteer work, demonstrating his commitment to environmental conservation. It contains a heading (< h2>Volunteering Activities< /h2>) and an unordered list of activities he participates in.</p>
+		<p>The Interests section (< section id="interests">)lists John's personal interests in an unordered list.This section provides a glimpse into John's personality and hobbies, making his profile more relatable.</p>
+		<p>The Availability section (< section id="calendar">) presents a structured table displaying John's available times for meetings, volunteering, or research. It consists of</p>
+		<li>A table (< table>) with headers (< th>) specifying Day and Time.</li>
+		<li>Rows (< tr>) indicating availability.</li>
+		<p>This section (< section id="contact">) provides a form that allows users to send messages to John Doe. The form consists of:</p>
+		<li>Name input field (< input type="text">).</li>
+		<li>Email input field (< input type="email">).</li>
+		<li>Message textarea (< textarea> with 4 rows).</li>
+		<li>A Submit button (< button type="submit">Send< /button>).</li>
+		<p>The footer section (< footer>) provides basic website information.Brand name: "OCEANECHO",Copyright notice: "2025. All Rights Reserved".</p>
+		
+		<li>css file</li>
+		<p>body: Uses Arial font, removes margin/padding, and applies a background image with a dark gradient overlay.h1, h2, h3: Sets text color to a dark grayish-blue.a: Sets links to blue (#3498db) and underlines them on hover</p>
+		<p>.navbar: Makes the navigation sticky at the top, with padding and a high z-index to stay above other content..navbarul: Uses a flexbox layout to align navigation items..navbar ul li: Adjusts spacing and font size..navbar ul li a: Styles the navigation links with color and hover effects.</p>
+		<p>.user-profile-card: Creates a box containing the user’s avatar and details with a white background, rounded corners, and a shadow..avatar img: Makes the profile image circular and resizes it..user-details h1, p: Adjusts text styles..profile-info: Similar styling as the profile card, adding a clean look with padding and shadows..skills ul: Removes bullet points..skills li: Adds background color and padding for individual skill items..progress-bar: Creates a container for a progress indicator..progress: Styles the progress bar with color and padding.</p>
+		<p>.volunteering, .interests, .calendar: All follow the same styling structure with a white background, rounded corners, and a shadow effect.For the calendar:.calendar table: Makes the calendar table 80% wide..calendar th, .calendar td: Adds borders, padding, and text alignment..calendar th: Highlights headers with a light gray background.</p>
+		<p>.contact-form: Styles the form with a white background and padding..contact-form label: Ensures labels are displayed above inputs..contact-form input, textarea: Styles inputs with padding and rounded borders..contact-form button: Creates a greenish button that changes color on hover.</p>
+		<p>Multiple sections (.user-profile-card, .profile-info, .volunteering, .interests, .calendar, .contact-form) scale up slightly on hover (transform: scale(1.02)) with a smooth transition.</p>
+
+		</section>
+		
+
+        
+    </main>
+
+    <footer>
+     <p> 2025 OceanEcho. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
